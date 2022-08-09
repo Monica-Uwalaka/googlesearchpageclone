@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="./style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <!-- Header -->
+        <div class="header">
+            <div>
+                <img id="adv-logo-tl" src="./googlelogo.png"/>
+            </div>
+            <div id="h-second-half">
+                <div>
+                    <a href="../search/index.html" class="header-link">Google Search</a>
+                </div>
+                <div id="menu-profile-div" >
+                    <a class="header-link">
+                        <img id="menu" src="./menu.png"/>   
+                    </a>
+                    <a class="header-link">
+                        <div id="profile-circle">M</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Search -->
+        <p id="adv-title">Advanced Search</p>
+        <hr class="line">
+        
+        <div id="advanced-search">
+            <div id="form-h">
+                <div> Find pages with....</div>
+                <div id="to-do">To do this in the search box.</div>
+            </div>
+           <Form class="form-adv action="https://www.google.com/search">
+               <ul>
+                    <input hidden name="tbs" value="">
+
+                   <li>
+                       <div class="li-div">
+                            <label class="adv-label" for="all">all these words:</label>
+                            <input class="form-center" id="all" name="as_q">
+                            <p class="des">Type the important words: tri-colour rat terrier</p>
+                       </div>
+                   </li>
+
+                   <li>
+                        <div class="li-div">
+                            <label class="adv-label" for="this">this exact word or phrase:</label>
+                            <input class="form-center" id="this" name="as_epq">
+                            <p class="des">Put exact words in quotes: "rat terrier"</p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="li-div">
+                            <label class="adv-label" for="any">any of these words:</label>
+                            <input class="form-center" id="any" name="as_oq">
+                            <p class="des">Type OR between all the words you want: miniature OR standard
+                            </p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="li-div">
+                            <label class="adv-label" for="none">none of these words:</label>
+                            <input class="form-center" id="none" name="as_eq">
+                            <p class="des">Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"
+                            </p>
+                        </div>
+                    </li>
+               </ul>
+               <div class="form-center-div">
+                    <input id="adv-submit" type="submit" value="Advanced Search">
+               </div>
+            </Form>
+        </div>
+        <hr class="line">
+
+        <!-- Fotter -->
+        <div id="footer">
+            <div id="footer1">
+                <p>Canada</p>
+            </div>
+            <hr class="line">
+            <div id="footer2">
+                <div>
+                    <p>Advertising</p>
+                    <p>Business</p>
+                    <p>How Search works</p>
+
+                </div>
+                <div >
+                    <p>Privacy</p>
+                    <p>Terms</p>
+                    <p>Settings</p>
+                </div>
+            </div>
+        </div>  
+    </body>
+</html>

@@ -1,0 +1,314 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    margin: 0;
+}
+
+/* styles the header */
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px;
+    font-size: 14px;
+    height: 48px;
+    color: #202124;
+    margin-left: 15px;
+}
+
+/* spaces out the links in the header */
+.header-link{
+    padding: 6px;
+    margin: 0px 5px 0px 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* styles profile Icon */
+#profile-circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: purple;
+    font: 18px Roboto,Arial,sans-serif;
+    color: white;
+    width: 32px;
+    height: 32px;
+  
+}
+
+/* spaces out first and second half of the header */
+#h-second-half{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 48px;    
+}
+
+#menu{
+    height: 22px;
+}
+
+/* styles menu and profile div of the header */
+#menu-profile-div{
+    display: flex;
+    flex-direction: row;
+    height: 48px;
+    padding: 0px 0px 0px 5px;
+    align-items: center;
+}
+
+/* positions search area to the center of the page */
+#search{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    margin-top: 200px;
+}
+
+/* resizes the google logo */
+#googlelogo-div{
+    min-height: 92px;
+    margin-bottom: 25px;
+    object-fit: contain;
+    object-position: center bottom;
+}
+
+#googlelogo{
+    height: 92px;
+}
+
+
+/* styles search box */
+#search-input{
+    margin-bottom: 25px;
+    border: 1px solid #dfe1e5;
+    height: 40px;
+    width: 500px;
+    font-size: 16px;
+    border-radius: 25px;
+    margin-left: -70px;
+    padding: 0px 10px 0px 10px;
+}
+
+#search-input:hover{
+    box-shadow: 1px 1px  5px #dfe1e5;   
+}
+
+#search-input:focus{
+    outline: none; 
+}
+
+/* styles search buttons */
+.search-button{
+    border: none;
+    border: 1px solid #f8f9fa;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    height: 36px;
+    padding: 0 16px;
+    margin: 5px;
+    width: 134px;
+}
+
+/* aligns search buttons */
+#search-button-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+/* formats the language link */
+#lang {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+/* colours the language link */
+#lang a{
+    color: blue;
+}
+
+/* positions footer items */
+#footer{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-color: #f2f2f2;
+    position: fixed;
+    bottom: 0;
+    width: 100%;  
+}
+#footer1{
+    width: 100%;
+    height: 40px;
+    padding-left: 25px;
+}
+
+#footer2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    padding-bottom: 10px;
+}
+
+@media (max-width: 800px){
+    #footer2{
+        justify-content: space-evenly;
+        height: 80px;
+    }
+}
+
+
+.line{
+    border-top: 0.5px solid rgb(189, 182, 182); 
+    opacity: 50%;
+    width: 100%;
+}
+
+#footer2 div {
+    display: flex;
+    flex-direction: row;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+
+#footer p{
+    font-size: 14px;
+    opacity: 70%;
+    padding-right: 10px;
+}
+
+
+#adv-logo-tl{
+    height:25px;
+    margin-left: 10px;
+}
+
+#advanced-search{
+    padding-left: 50px;
+    margin: 25px 35px 25px 0px;
+}
+
+#adv-title{
+    font-size: 20px;
+    color: #d93025;
+    margin: 20px 35px 25px 40px;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul{
+    padding-left: 0px;
+}
+
+.li-div{
+    display: flex;
+    flex-direction: row;
+}
+
+label{
+    width: 150px;
+}
+
+input{
+    width: 200px;
+    margin-left: 10px;
+}
+
+.form-adv{
+    max-width: 1140px;
+    min-width: 200px;
+    width: 96%;
+}
+
+#adv-submit{
+    width: 120px;
+    background-color: #357ae8;
+    border: 1px solid #2f5bb7;
+    height: 30px;
+    min-width: 120px;
+    border-radius: 2px;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    color: #fff;
+    float: right;
+}
+
+span{
+    color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    position: relative;
+    margin-left: -60px;
+    white-space: nowrap;
+}
+
+.adv-label{
+    font-size: 13px;
+}
+
+.form-center{
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 20px;
+    padding: 1px 8px;
+    min-width: 167px;
+    min-height: 25px;
+    width: 50%;
+}
+
+
+.form-center-div{
+    border-radius: 1px;
+    font-size: 13px;
+    height: 20px;
+    min-width: 167px;
+    min-height: 25px;
+    width: 50%;
+    margin-left: 180px;
+}
+
+.des{
+    display: flex;
+    font-size: 12px;
+    margin-left: 10px;
+    width: 250px;
+    font-family: Arial, sans-serif;
+    padding-left: 5px;
+    height:20px;
+    align-items: center;
+}
+
+#form-h{
+    width: 950px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+

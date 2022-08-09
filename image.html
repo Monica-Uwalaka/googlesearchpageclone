@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Image Search</title>
+        <link rel="stylesheet" href="./style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <!-- Header -->
+        <div class="header">
+            <div>
+                <a class="header-link"></a>
+                <a class="header-link"></a>
+            </div>
+            <div id="h-second-half">
+                <div>
+                    <a href="../search/index.html" class="header-link">Google Search</a>
+                </div>
+                <div id="menu-profile-div" >
+                    <a class="header-link">
+                        <img id="menu" src="./menu.png"/>   
+                    </a>
+                    <a class="header-link">
+                        <div id="profile-circle">M</div>
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+        
+        <!-- seacrh -->
+        <div id="search">
+            <div id="googlelogo-div" >
+                <img id="googlelogo" src="./googlelogo_images.png">
+                <span>images</span>
+            </div>
+
+            <form action="https://google.com/search">
+                <div>
+                    <input hidden name="tbm" value="isch">
+                    <input id="search-input" type="text" name="q">
+                </div>
+
+                <div id = "search-button-div">
+                    <input class ="search-button"type="submit" value="Google Search">
+                    <!-- <input class ="search-button"type="submit" value="I'm Feeling Lucky"> -->
+                </div>
+                
+            </form>
+            <!-- language -->
+            <div id="lang">
+                <p>Google offered in: <a> Francais </a> </p>
+            </div>
+        </div>
+
+        <div id="footer">
+            <div id="footer1">
+                <p>Canada</p>
+            </div>
+            <hr class="line">
+            <div id="footer2">
+                <div>
+                    <p>Advertising</p>
+                    <p>Business</p>
+                    <p>How Search works</p>
+
+                </div>
+                <div >
+                    <p>Privacy</p>
+                    <p>Terms</p>
+                    <p>Settings</p>
+                </div>
+            </div>
+        </div>  
+    </body>
+</html>
